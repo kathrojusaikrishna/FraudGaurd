@@ -1,0 +1,26 @@
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dataset
+dataset/
+*.csv
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# System
+.DS_Store
+
+# Testing
+.pytest_cache/

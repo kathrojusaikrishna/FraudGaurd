@@ -1,0 +1,19 @@
+import os
+from dotenv import load_dotenv
+from pymongo import MongoClient
+
+load_dotenv()
+
+MONGODB_URL = os.getenv("MONGODB_URL")
+
+client = MongoClient(MONGODB_URL, serverSelectionTimeoutMS=10000)
+
+try:
+    client.admin.command("ping")
+    print("MongoDB Atlas connected successfully!")
+
+except Exception as error:
+    print("MongoDB connection failed:", error)
+
+finally:
+    client.close()
