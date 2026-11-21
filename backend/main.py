@@ -74,7 +74,7 @@ origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
     "http://localhost:3000",
-    "https://fraud-gaurd-cyan.vercel.app"
+    "https://fraud-guard-c372aonoh-sai-krishna-s-projects3.vercel.app"
 ]
 
 app.add_middleware(
