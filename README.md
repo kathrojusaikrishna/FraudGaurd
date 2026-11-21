@@ -266,6 +266,7 @@ docker compose down
 
 ## Author
 
+Kathroju Sai Krishna
 Developed as a Machine Learning and Full-Stack Development project.
 
 **FraudGuard – Intelligent Credit Card Fraud Detection.**
